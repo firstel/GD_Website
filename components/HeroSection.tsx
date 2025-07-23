@@ -93,8 +93,7 @@ const HeroSection: React.FC = () => {
                   ease: [0.25, 0.46, 0.45, 0.94], // Custom smooth cubic-bezier
                 }}
               >
-                Casual games are designed for all players, including those who don't typically identify as gamers. These games are easy to pick up, fun to master, and don't require any special skills or a significant time commitment. They are quick to access and simple to learn, making them accessible to a wide audience. Many casual games draw inspiration from familiar game concepts, often reminiscent of classic arcade games or the video games we grew up playing. With their straightforward mechanics and engaging gameplay, casual games offer a relaxed and enjoyable experience for everyone.
-              </motion.p>
+              As a team of experienced game creators behind dynamic, proven hits featuring engaging and colorful characters, we design casual games with one goal in mind: to make fun instantly accessible to everyone—whether they consider themselves gamers or not. Our games are easy to jump into and rewarding enough to keep players coming back. They don’t require a big time investment or special skills—just a few moments and a playful spirit. We draw inspiration from timeless, familiar mechanics that evoke the charm of classic arcades, and we bring them to life with fresh energy, vibrant worlds, and characters full of personality. At their best, casual games offer pure, low-pressure fun for everyone.              </motion.p>
             </motion.div>
           </div>
         </div>
