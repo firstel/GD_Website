@@ -4,7 +4,7 @@ export const products: Product[] = [
   {
     id: '1',
     slug: 'bow-wow-animation-series',
-    title: 'JESSICAS BOW WOW BISTRO CAFE',
+    title: "JESSICA'S BOW WOW BISTRO CAFE",
     price: 299.99,
     category: 'Licensing',
     posterImage: '/products/bow_wow-04-440x300.jpg',
