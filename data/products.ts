@@ -27,7 +27,7 @@ export const products: Product[] = [
   {
     id: '2',
     slug: 'goddess-fantasy-world',
-    title: 'The Goddess Chronicles',
+    title: 'THE GODDESS CHRONICLES',
     price: 199.99,
     category: 'Licensing',
     posterImage: '/products/goddess-04-440x300.jpg',
@@ -50,7 +50,7 @@ export const products: Product[] = [
   {
     id: '3',
     slug: 'real-crimes-unicorn-killer',
-    title: 'Real Crimes: The Unicorn Killer',
+    title: 'REAL CRIMES: The Unicorn Killer',
     price: 149.99,
     category: 'Licensing',
     posterImage: '/products/unicorn_boxshot600x800_lg.jpg',
@@ -73,7 +73,7 @@ export const products: Product[] = [
     slug: 'the-last-days',
     title: 'THE LAST DAYS',
     price: 399.99,
-    category: 'Licensing — Commercials',
+    category: 'Licensing',
     posterImage: '/products/652021-the-last-days-concept-art.jpg',
     detailContent: [
       'Can you defeat the enemy and save the earth?',
@@ -124,7 +124,7 @@ export const products: Product[] = [
     slug: 'goddess-series',
     title: 'GODDESS SERIES',
     price: 179.99,
-    category: 'Licensing — Commercials',
+    category: 'Licensing',
     posterImage: '/products/thumbnail-goddess.jpg',
     detailContent: [
       'Premium fantasy series with goddess characters and mystical storytelling.',
