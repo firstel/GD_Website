@@ -27,7 +27,7 @@ export const products: Product[] = [
   {
     id: '2',
     slug: 'goddess-fantasy-world',
-    title: 'GODDESS FANTASY WORLD',
+    title: 'The Goddess Chronicles',
     price: 199.99,
     category: 'Licensing',
     posterImage: '/products/goddess-04-440x300.jpg',
@@ -49,11 +49,11 @@ export const products: Product[] = [
   },
   {
     id: '3',
-    slug: 'bow-wow-adventures',
-    title: 'BOW WOW ADVENTURES',
+    slug: 'real-crimes-unicorn-killer',
+    title: 'Real Crimes: The Unicorn Killer',
     price: 149.99,
     category: 'Licensing',
-    posterImage: '/products/bow_wow-01-285x200.jpg',
+    posterImage: '/products/unicorn_boxshot600x800_lg.jpg',
     detailContent: [
       'Action-packed adventures with beloved characters in vibrant animated settings.',
       'Dynamic storytelling combined with stunning animation creates an unforgettable viewing experience.',
