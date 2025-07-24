@@ -77,19 +77,18 @@ export const products: Product[] = [
     posterImage: '/products/652021-the-last-days-concept-art.jpg',
     detailContent: [
       'Can you defeat the enemy and save the earth?',
-      'An ancient enemy returns and the fate of the world is in your hands when you play The Last Days. 
+      'An ancient enemy returns and the fate of the world is in your hands when you play The Last Days.', 
       'Learn about the mysteries of the Bermuda Triangle, and discover clues left by advanced civilizations eons ago.',
       'Extended licensing includes commercial rights, international distribution, and merchandising opportunities.',
       'You’re long overdue for a vacation, so you head out to the Bahamas looking for the refreshment of sun, sea, and sand.',
       'Your diving excursions reveal mysterious artifacts strangely out of place. Can you piece together the clues in time?',
     ],
     galleryImages: [
-      '/products/goddess-01-650x400.jpg',
-      '/products/goddess-04-440x300.jpg',
-      '/products/thumbnail-goddess.jpg',
-      '/products/goddess-01-650x400.jpg',
-      '/products/goddess-04-440x300.jpg',
-      '/products/thumbnail-goddess.jpg'
+      '/products/652022-the-last-days-screenshot.jpg',
+      '/products/652023-the-last-days-screenshot-1.jpg',
+      '/products/652025-the-last-days-screenshot-300x169.jpg',
+      '/products/652026-the-last-days-screenshot-300x169.jpg',
+      '/products/652027-the-last-days-screenshot-300x169.jpg',
     ]
   },
   {
