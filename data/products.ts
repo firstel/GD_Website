@@ -70,23 +70,18 @@ export const products: Product[] = [
   },
   {
     id: '4',
-    slug: 'goddess-legends',
-    title: 'GODDESS LEGENDS',
+    slug: 'the-last-days',
+    title: 'THE LAST DAYS',
     price: 399.99,
     category: 'Licensing — Commercials',
-    posterImage: '/products/goddess-01-650x400.jpg',
+    posterImage: '/products/652021-the-last-days-concept-art.jpg',
     detailContent: [
-      'Epic fantasy series featuring powerful goddesses and magical realms.',
-      'Premium production quality with cinematic storytelling and world-class animation.',
+      'Can you defeat the enemy and save the earth?',
+      'An ancient enemy returns and the fate of the world is in your hands when you play The Last Days. 
+      'Learn about the mysteries of the Bermuda Triangle, and discover clues left by advanced civilizations eons ago.',
       'Extended licensing includes commercial rights, international distribution, and merchandising opportunities.',
-      'GODDESS Legends represents the pinnacle of animated fantasy production, featuring 24 feature-length episodes of 90 minutes each, created with Hollywood-level production values and storytelling sophistication.',
-      'The series employs cutting-edge animation technology including photorealistic rendering, advanced particle effects for magical sequences, and motion capture integration that blurs the line between animation and live-action cinema.',
-      'Character development spans multiple seasons with complex story arcs exploring themes of power, responsibility, sacrifice, and the evolution of legendary figures from mortal beginnings to divine status.',
-      'Each goddess represents different aspects of human experience and natural forces, providing rich allegory for contemporary issues while drawing from authentic mythological traditions spanning global cultures.',
-      'Production team includes Academy Award-winning animators, Emmy-nominated writers, and internationally acclaimed voice actors, ensuring premium quality that meets the highest industry standards.',
-      'Visual effects incorporate proprietary technology for magical sequences, environmental dynamics, and character transformation scenes that push the boundaries of animated storytelling.',
-      'The series addresses mature themes appropriate for teen and adult audiences while maintaining accessibility for family viewing, creating broad demographic appeal for premium programming slots.',
-      'Commercial licensing includes advertising integration opportunities, brand partnership potential, corporate training applications, and promotional content development for multiple industries.'
+      'You’re long overdue for a vacation, so you head out to the Bahamas looking for the refreshment of sun, sea, and sand.',
+      'Your diving excursions reveal mysterious artifacts strangely out of place. Can you piece together the clues in time?',
     ],
     galleryImages: [
       '/products/goddess-01-650x400.jpg',
