@@ -62,10 +62,10 @@ export const products: Product[] = [
       'Justice is in your hands—can you close the case?',
     ],
     galleryImages: [
-      '/products/unicorn1.jpg',
-      '/products/unicorn2.jpg',
-      '/products/unicorn3.jpg',
-      '/products/unicorn4.jpg',
+      '/products/unicorn1.png',
+      '/products/unicorn2.png',
+      '/products/unicorn3.png',
+      '/products/unicorn4.png',
     ]
   },
   {
