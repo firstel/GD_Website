@@ -55,24 +55,17 @@ export const products: Product[] = [
     category: 'Licensing',
     posterImage: '/products/unicorn_boxshot600x800_lg.jpg',
     detailContent: [
-      'Action-packed adventures with beloved characters in vibrant animated settings.',
-      'Dynamic storytelling combined with stunning animation creates an unforgettable viewing experience.',
-      'Ideal for networks seeking engaging content with proven character appeal and merchandising potential.',
-      'BOW WOW Adventures delivers high-energy entertainment through 18 episodes of 30 minutes each, featuring fast-paced action sequences and character-driven comedy that keeps audiences engaged.',
-      'The animation style combines vibrant color palettes with fluid motion graphics, utilizing advanced rigging systems for seamless character movement and dynamic camera work that enhances action sequences.',
-      'Each episode features self-contained adventures while building overarching character relationships and world-building elements that reward loyal viewers with deeper narrative satisfaction.',
-      'Character roster includes six main protagonists, each with distinct personalities, skills, and growth arcs that provide multiple identification points for diverse audience segments.',
-      'Action choreography incorporates elements from various adventure genres including treasure hunting, mystery solving, environmental exploration, and teamwork challenges that promote positive values.',
-      'The series employs humor appropriate for all ages while maintaining sophisticated storytelling techniques that engage both children and adults watching together.',
-      'Production features professional storyboarding by industry veterans, ensuring optimal pacing and visual storytelling that maximizes emotional impact and viewer retention.'
+      'Step into the shoes of an elite FBI investigator in Real Crimes: The Unicorn Killer.',
+      'Based on true events, this gripping hidden object game challenges you to track down the elusive Ira Einhorn across international crime scenes.',
+      'Search cluttered environments for critical clues, solve puzzles, and piece together the truth behind a chilling murder mystery.',
+      'With authentic case details and immersive gameplay, The Unicorn Killer blends true crime intrigue with classic seek-and-find thrills.',
+      'Justice is in your hands—can you close the case?',
     ],
     galleryImages: [
-      '/products/bow_wow-01-285x200.jpg',
-      '/products/bow_wow-04-440x300.jpg',
-      '/products/thumbnail-bowwow.jpg',
-      '/products/bow_wow-01-285x200.jpg',
-      '/products/bow_wow-04-440x300.jpg',
-      '/products/thumbnail-bowwow.jpg'
+      '/products/unicorn1.jpg',
+      '/products/unicorn2.jpg',
+      '/products/unicorn3.jpg',
+      '/products/unicorn4.jpg',
     ]
   },
   {
