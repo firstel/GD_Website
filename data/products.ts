@@ -4,21 +4,16 @@ export const products: Product[] = [
   {
     id: '1',
     slug: 'bow-wow-animation-series',
-    title: 'BOW WOW ANIMATION SERIES',
+    title: 'JESSICA'S BOW WOW BISTRO CAFE',
     price: 299.99,
     category: 'Licensing',
     posterImage: '/products/bow_wow-04-440x300.jpg',
     detailContent: [
-      'Animated series featuring colorful characters and engaging storylines perfect for family entertainment.',
-      'This premium collection includes full licensing rights for television, streaming, and digital distribution.',
-      'Perfect for broadcasters looking for high-quality animated content that appeals to all age groups.',
-      'BOW WOW Animation Series represents a breakthrough in family entertainment, combining cutting-edge 3D animation with heartwarming storytelling that resonates across cultural boundaries.',
-      'The series features 26 episodes of 22 minutes each, professionally produced with 4K resolution and surround sound audio mixing for premium viewing experiences.',
-      'Character development focuses on core values of friendship, courage, and problem-solving, making it ideal for educational programming and family viewing blocks.',
-      'Our proprietary animation pipeline ensures consistent quality throughout all episodes, with detailed character models featuring over 500 unique facial expressions and fluid motion capture technology.',
-      'The show has been pre-tested with focus groups across 15 countries, achieving a 94% approval rating among children aged 4-12 and an 87% approval rating among parents.',
-      'Extensive merchandising opportunities include toy lines, clothing, books, mobile games, and interactive educational content, with character designs optimized for product development.',
-      'Distribution package includes dubbed versions in 12 languages, complete subtitle tracks for accessibility, and cultural adaptation guidelines for international markets.'
+      'Welcome to Jessica’s Bow Wow Bistro Café, the ultimate pet-friendly restaurant simulation!',
+      'Step into Jessica’s shoes and serve up tail-wagging treats to hungry pups and their picky owners.',
+      'Customize your café, whip up gourmet dog dishes, and keep the chaos under control as orders pile in.',
+      'With adorable animations, quirky customers, and fast-paced gameplay, this charming time-management game will test your reflexes and creativity.',
+      'Can you turn a humble dog café into the hottest spot in town? Bowls up!',
     ],
     galleryImages: [
       '/products/bow_wow-04-440x300.jpg',
