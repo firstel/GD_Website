@@ -32,13 +32,11 @@ export const products: Product[] = [
     category: 'Licensing',
     posterImage: '/products/goddess-04-440x300.jpg',
     detailContent: [
-      'Fantasy adventure series with mystical characters and enchanting landscapes.',
-      'Immerse your audience in a world of magic, mystery, and powerful goddess characters.',
-      'Includes comprehensive licensing package for global distribution and merchandising opportunities.',
-      'GODDESS Fantasy World transports viewers into an epic realm where ancient mythology meets contemporary storytelling, featuring five powerful goddess characters each representing different elements and virtues.',
-      'The series spans 20 episodes of 45 minutes each, produced with cinematic quality including practical effects integration, orchestral soundtrack, and professional voice acting from industry veterans.',
-      'Each goddess character is meticulously developed with unique backstories, powers, and character arcs that explore themes of empowerment, wisdom, responsibility, and the balance between power and compassion.',
-      'Visual production employs hybrid animation techniques combining traditional 2D character animation with 3D environmental modeling, creating a distinctive artistic style that sets new industry standards.'
+      'Embark on a mythical journey in The Goddess Chronicles, a captivating puzzle-adventure game steeped in ancient legend.',
+      'Play as young Tara, chosen by the gods to uncover lost relics, solve sacred riddles, and restore balance to a world in turmoil.',
+      'Explore stunning, hand-crafted temples, battle divine forces, and unlock hidden powers as you rise from mortal to myth.',
+      'With immersive storytelling, rich visuals, and challenging gameplay, The Goddess Chronicles delivers a divine quest like no other. ',
+      'Will you fulfill your destiny?',
     ],
     galleryImages: [
       '/products/goddess-04-440x300.jpg',
