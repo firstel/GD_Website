@@ -9,8 +9,8 @@ export const products: Product[] = [
     category: 'Licensing',
     posterImage: '/products/bow_wow-04-440x300.jpg',
     detailContent: [
-      'Welcome to Jessica’s Bow Wow Bistro Café, the ultimate pet-friendly restaurant simulation!',
-      'Step into Jessica’s shoes and serve up tail-wagging treats to hungry pups and their picky owners.',
+      "Welcome to Jessica’s Bow Wow Bistro Café, the ultimate pet-friendly restaurant simulation!",
+      "Step into Jessica’s shoes and serve up tail-wagging treats to hungry pups and their picky owners.",
       'Customize your café, whip up gourmet dog dishes, and keep the chaos under control as orders pile in.',
       'With adorable animations, quirky customers, and fast-paced gameplay, this charming time-management game will test your reflexes and creativity.',
       'Can you turn a humble dog café into the hottest spot in town? Bowls up!',
