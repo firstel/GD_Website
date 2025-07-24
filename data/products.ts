@@ -93,11 +93,11 @@ export const products: Product[] = [
   },
   {
     id: '5',
-    slug: 'bow-wow-collection',
-    title: 'BOW WOW COLLECTION',
+    slug: 'jessicas_cupcake-cafe',
+    title: "JESSICA'S CUPCAKE CAFE",
     price: 249.99,
     category: 'Licensing',
-    posterImage: '/products/thumbnail-bowwow.jpg',
+    posterImage: '/products/screenshot01_lg.jpg',
     detailContent: [
       'Complete collection of Bow Wow animated content and merchandise opportunities.',
       'This comprehensive package includes multiple series, character designs, and brand guidelines.',
