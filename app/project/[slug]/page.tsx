@@ -4,6 +4,7 @@ import Navbar from "../../../components/Navbar";
 import ProjectHero from "../../../components/ProjectHero";
 import ProjectGallery from "../../../components/ProjectGallery";
 import GameDetails from "@/components/GameDetails";
+import { Metadata } from "next";
 
 interface ProjectPageProps {
   params: Promise<{
@@ -11,6 +12,22 @@ interface ProjectPageProps {
   }>;
 }
 
+export async function generateMetadata({
+  params,
+}: ProjectPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const product = products.find((p) => p.slug === slug);
+
+  if (!product) {
+    return {
+      title: "Not Found - Gamers Digital",
+    };
+  }
+
+  return {
+    title: `${product.title} - Gamers Digital`,
+  };
+}
 export default async function ProjectPage({ params }: ProjectPageProps) {
   const { slug } = await params;
   const product = products.find((p) => p.slug === slug);
