@@ -78,7 +78,7 @@ const Navbar: React.FC = () => {
             {/* Mobile Logo */}
             <Link
               href="/"
-              className="relative block logo-hover-effect-mobile max-md:pt-5"
+              className="relative block logo-hover-effect-mobile max-lg:pt-5"
               onClick={handleLinkClick}
             >
               <Image
@@ -122,9 +122,11 @@ const Navbar: React.FC = () => {
           </div>
 
           {/* Mobile Menu */}
-          {isMenuOpen && (
-            <div className="pb-4 bg-black/80 backdrop-blur-sm rounded-b-lg transition-all duration-300">
-              <div className="flex flex-col space-y-3 pt-4 px-4">
+          <div
+            className={` bg-black/80 backdrop-blur-sm rounded-b-lg transition-all duration-200 ${isMenuOpen ? "h-28" : "h-0 overflow-hidden"}`}
+          >
+            {isMenuOpen && (
+              <div className="flex flex-col space-y-3 pt-4 px-4 duration-200 delay-150">
                 <Link
                   href="/#founder"
                   className="nav-link font-black text-sm transition-all duration-300"
@@ -139,9 +141,16 @@ const Navbar: React.FC = () => {
                 >
                   PROJECTS
                 </Link>
+                <Link
+                  href="/contact"
+                  className="nav-link font-black text-sm transition-all duration-300"
+                  onClick={handleLinkClick}
+                >
+                  LICENSE A TITLE
+                </Link>
               </div>
-            </div>
-          )}
+            )}
+          </div>
         </div>
       </div>
     </nav>
