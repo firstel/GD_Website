@@ -27,7 +27,7 @@ const HeroSection: React.FC = () => {
   };
 
   return (
-    <section className="w-full relative pb-[60px] lg:pb-[80px]">
+    <section className="w-full relative pb-[50px] lg:pb-[60px]">
       <div className="flex flex-col lg:flex-row min-h-[500px] lg:min-h-[600px] 2xl:min-h-[700px] hero-diagonal-cut">
         {/* Mobile: Image First with diagonal cut */}
         <div className="lg:hidden relative">

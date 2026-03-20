@@ -13,7 +13,7 @@ const ProductsGrid: React.FC<ProductsGridProps> = ({ products }) => {
       className="w-full max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8"
     >
       {/* Header */}
-      <div className="text-left mb-4 mt-20 flex justify-between items-center flex-wrap md:mb-6">
+      <div className="text-left mb-4 mt-1 flex justify-between items-center flex-wrap md:mb-6">
         <h2 className="font-bold text-[#00B341] leading-none ">
           <div className="text-4xl md:text-5xl lg:text-6xl">OUR PROJECTS</div>
         </h2>

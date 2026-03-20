@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center space-x-8">
             <Link
               href="/#founder"
-              className="nav-link font-black text-sm transition-all duration-300"
+              className="nav-link font-black  transition-all duration-300 text-gray-300! hover:text-white!"
               onClick={handleLinkClick}
             >
               MEET THE FOUNDER
@@ -57,7 +57,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center space-x-8">
             <Link
               href="/#projects"
-              className="nav-link font-black text-sm transition-all duration-300"
+              className="nav-link font-black! text-gray-300! hover:text-white! transition-all duration-300"
               onClick={handleLinkClick}
             >
               PROJECTS
@@ -65,7 +65,7 @@ const Navbar: React.FC = () => {
 
             <Link
               href="/contact"
-              className="font-black text-sm hover:bg-white hover:text-[#00B341]! px-5 py-2 rounded-full  duration-300 bg-[#00B341]  text-white"
+              className="font-black! text-gray-300!  hover:bg-white hover:text-[#00B341]! px-5 py-2 rounded-full  duration-300 bg-[#00B341]  "
             >
               LICENSE A TITLE
             </Link>
@@ -94,7 +94,7 @@ const Navbar: React.FC = () => {
             {/* Hamburger Menu Button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="focus:outline-none transition-all duration-300 text-white hover:text-gray-200 hover:scale-110"
+              className="focus:outline-none cursor-pointer transition-all duration-300 text-white hover:text-gray-200 hover:scale-110"
             >
               <svg
                 className="w-6 h-6"
