@@ -1,8 +1,10 @@
-import { notFound } from 'next/navigation';
-import { products } from '../../../data/products';
-import Navbar from '../../../components/Navbar';
-import ProjectHero from '../../../components/ProjectHero';
-import ProjectGallery from '../../../components/ProjectGallery';
+import { notFound } from "next/navigation";
+import { products } from "../../../data/products";
+import Navbar from "../../../components/Navbar";
+import ProjectHero from "../../../components/ProjectHero";
+import ProjectGallery from "../../../components/ProjectGallery";
+import GameDetails from "@/components/GameDetails";
+import { Metadata } from "next";
 
 interface ProjectPageProps {
   params: Promise<{
@@ -10,9 +12,25 @@ interface ProjectPageProps {
   }>;
 }
 
+export async function generateMetadata({
+  params,
+}: ProjectPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const product = products.find((p) => p.slug === slug);
+
+  if (!product) {
+    return {
+      title: "Not Found - Gamers Digital",
+    };
+  }
+
+  return {
+    title: `${product.title} - Gamers Digital`,
+  };
+}
 export default async function ProjectPage({ params }: ProjectPageProps) {
   const { slug } = await params;
-  const product = products.find(p => p.slug === slug);
+  const product = products.find((p) => p.slug === slug);
 
   if (!product) {
     notFound();
@@ -25,7 +43,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         <Navbar />
         <ProjectHero product={product} />
       </div>
-      
+
       {/* Detail Content Section */}
       <section className="py-1 md:py-8 px-4 lg:px-8 max-w-6xl mx-auto">
         <div className="prose prose-lg max-w-none">
@@ -36,12 +54,13 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           ))}
         </div>
       </section>
-      
+
+      {product.gameDetails && <GameDetails details={product.gameDetails} />}
+
       {/* Gallery Section */}
       {product.galleryImages && product.galleryImages.length > 0 && (
         <ProjectGallery images={product.galleryImages} title={product.title} />
       )}
-    
     </div>
   );
 }
@@ -51,4 +70,4 @@ export async function generateStaticParams() {
   return products.map((product) => ({
     slug: product.slug,
   }));
-} 
+}

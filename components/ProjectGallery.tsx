@@ -65,6 +65,7 @@ export default function ProjectGallery({ images, title }: ProjectGalleryProps) {
             spaceBetween={20}
             pagination={{
               clickable: true,
+              // dynamicBullets: true,
             }}
             navigation={{
               nextEl: ".gallery-next",
@@ -78,7 +79,7 @@ export default function ProjectGallery({ images, title }: ProjectGalleryProps) {
             className="gallery-swiper h-44 sm:h-56 md:h-64 lg:h-80"
           >
             {images.map((image, index) => (
-              <SwiperSlide key={index} className="gallery-slide">
+              <SwiperSlide key={index} className="gallery-slide mb-10">
                 {/* Green card container - 30% smaller */}
                 <div className="w-48 sm:w-56 md:w-64 lg:w-96 xl:w-[560px] h-44 sm:h-56 md:h-64 lg:h-80 bg-[#00B341] rounded-lg shadow-2xl flex items-center justify-center transition-transform duration-300 hover:scale-[1.02] mx-auto">
                   {/* Image container - 80% width, 90% height */}
