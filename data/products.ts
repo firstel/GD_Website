@@ -703,8 +703,9 @@ export const products: Product[] = [
       "Zombii Attack is an arcade survival game.",
       "In an infected metropolitan city over-flowing with hungry zombies, you must stay alive armed with a only a giant slingshot and ammo such as anvils, tires, experimental highly-explosive z-bombs and even the undead themselves.The action is fast paced and frantic. You must grab items quickly and slingshot them at zombies before they eat you using the Wii Remote in a realistic natural motion to load and fire.Locate and destroy secret zombie hiding places in order to earn special weapons,ammo, armor and much more.You launch, or you’re lunch, it’s up to you!",
     ],
+    
     gameDetails: {
-      releaseDate: "Jan 05, 2012",
+      releaseDate: "March, 2014",
       players: "1 player",
       genre: "Action",
       platform: "Nintendo 3DS, PC",
@@ -736,6 +737,7 @@ export const products: Product[] = [
       "/products/Strike Force Foxx Assets/20.jpg",
     ],
   },
+    
 ];
 
 // Helper function to easily add new products

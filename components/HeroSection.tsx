@@ -93,7 +93,7 @@ const HeroSection: React.FC = () => {
                   ease: [0.25, 0.46, 0.45, 0.94], // Custom smooth cubic-bezier
                 }}
               >
-              As a team of experienced game creators behind dynamic, proven hits featuring engaging and colorful characters, we design casual games with one goal in mind: to make fun instantly accessible to everyone—whether they consider themselves gamers or not. Our games are easy to jump into and rewarding enough to keep players coming back. They don’t require a big time investment or special skills—just a few moments and a playful spirit. We draw inspiration from timeless, familiar mechanics that evoke the charm of classic arcades, and we bring them to life with fresh energy, vibrant worlds, and characters full of personality. At their best, casual games offer pure, low-pressure fun for everyone.              </motion.p>
+              We've spent 20+ years creating casual games that players love and retailers trust. Today, we're opening our catalog of 16 proven titles to new licensing partners — ready to play, proven to perform.              </motion.p>
             </motion.div>
           </div>
         </div>
