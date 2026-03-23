@@ -25,7 +25,6 @@ export const products: Product[] = [
       developer: "AWE Games, Gamers Digital",
       perspective: "Top-down",
       narrative: "Casual",
-      fileSize: "245MB",
       esrbRating: "E (Everyone)",
     },
     galleryImages: [
