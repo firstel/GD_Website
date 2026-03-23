@@ -677,6 +677,36 @@ export const products: Product[] = [
       "/products/Zombii Attack/7.jpg",
     ],
   },
+  {
+    id: "17",
+    slug: "strike-force-fox",
+    title: "Strike Force Fox",
+    price: 9.99,
+    category: "Games",
+    posterImage: "/products/Zombii Attack/1.jpg",
+    detailContent: [
+      "Strike Force Foxx is a side-scrolling, 3D retro chopper attack-and-rescue game with a modern feel.",
+      "You are Captain Raymond Foxx, guiding your Razor-One helicopter through intense missions, battling the enemy and saving your citizens from terror.",
+    ],
+    gameDetails: {
+      releaseDate: "March, 2014",
+      players: "1 player",
+      genre: "Action",
+      platform: "Nintendo 3DS, PC",
+      publisher: "Gamers Digital",
+      developer: "Big John Games",
+      esrbRating: "Everyone",
+    },
+    galleryImages: [
+      "/products/Zombii Attack/1.jpg",
+      "/products/Zombii Attack/2.jpg",
+      "/products/Zombii Attack/3.jpg",
+      "/products/Zombii Attack/4.jpg",
+      "/products/Zombii Attack/5.jpg",
+      "/products/Zombii Attack/6.jpg",
+      "/products/Zombii Attack/7.jpg",
+    ],
+  },
 ];
 
 // Helper function to easily add new products
