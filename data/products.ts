@@ -60,7 +60,6 @@ export const products: Product[] = [
       developer: "Mythic Studios",
       perspective: "3rd-person",
       narrative: "Fantasy, Mythological",
-      fileSize: "512MB",
       esrbRating: "T (Teen)",
     },
     galleryImages: [
@@ -96,7 +95,6 @@ export const products: Product[] = [
       developer: "AWE Games, Gamers Digital",
       perspective: "1st-person",
       narrative: "Crime",
-      fileSize: "38 MB",
       esrbRating: "Everyone",
     },
     galleryImages: [
@@ -164,7 +162,6 @@ export const products: Product[] = [
       developer: "Gogii Games",
       perspective: "2D Point and Click",
       narrative: "Mystery, Sci-Fi",
-      fileSize: "420MB",
       esrbRating: "T (Teen)",
     },
     galleryImages: [
@@ -206,7 +203,6 @@ export const products: Product[] = [
       developer: "Weibull Interactive",
       perspective: "Top-down",
       narrative: "Casual, Feel-good",
-      fileSize: "320MB",
       esrbRating: "E (Everyone)",
     },
     galleryImages: ["/products/Jessica’s Cupcake Cake/1.jpg"],
@@ -240,7 +236,6 @@ export const products: Product[] = [
       developer: "Aurora Games",
       perspective: "3rd-person",
       narrative: "Fantasy, Mythology, Empowerment",
-      fileSize: "892MB",
       esrbRating: "M (Mature)",
     },
     galleryImages: [
@@ -276,7 +271,6 @@ export const products: Product[] = [
       developer: "AWE Games",
       perspective: "1st-person",
       narrative: "Crime, Historical, Heist",
-      fileSize: "38MB",
       esrbRating: "Everyone",
     },
     galleryImages: [
@@ -347,7 +341,6 @@ export const products: Product[] = [
       platform: "Nintendo 3DS",
       publisher: "Big John Games",
       developer: "Gamers Digital",
-      fileSize: "29 MB",
       esrbRating: "Everyone",
     },
     galleryImages: [
@@ -381,7 +374,6 @@ export const products: Product[] = [
       platform: "Nintendo 3DS",
       publisher: "Big John Games",
       developer: "Gamers Digital",
-      fileSize: "46 MB",
       esrbRating: "Everyone 10+",
     },
 
@@ -417,7 +409,6 @@ export const products: Product[] = [
       developer: "Codeglue B.V., Gamers Digital",
       perspective: "Side view",
       narrative: "Fantasy, Action Adventure",
-      fileSize: "72 MB",
       esrbRating: "Everyone 10+",
     },
     galleryImages: [
@@ -487,7 +478,6 @@ export const products: Product[] = [
       publisher: "Gamers Digital",
       developer: "Interactive Arts",
       perspective: "3rd-person (Other)",
-      fileSize: "378 MB",
       esrbRating: "Everyone",
     },
     galleryImages: [
@@ -520,7 +510,6 @@ export const products: Product[] = [
       publisher: "Big John Games",
       developer: "Gamers Digital",
       perspective: "Side view",
-      fileSize: "38 MB",
       esrbRating: "Everyone",
     },
 
@@ -555,7 +544,6 @@ export const products: Product[] = [
       developer: "Virtual Playground Ltd.",
       perspective: "1st-person",
       narrative: "Crime, Detective / mystery, Horror",
-      fileSize: "38MB",
       esrbRating: "Everyone",
     },
     galleryImages: [
@@ -620,7 +608,6 @@ export const products: Product[] = [
       publisher: "iWin, Inc.",
       developer: "Gamers Digital, Virtual Playground Ltd.",
       perspective: "2.5D Side-view",
-      fileSize: "29 MB",
       esrbRating: "Everyone",
     },
     galleryImages: [
@@ -678,7 +665,6 @@ export const products: Product[] = [
       platform: "Nintendo 3DS, PC",
       publisher: "Gamers Digital",
       developer: "Motiviti",
-      fileSize: "29 MB",
       esrbRating: "Everyone",
     },
     galleryImages: [
