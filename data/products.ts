@@ -471,7 +471,7 @@ export const products: Product[] = [
     title: "My Horse 3D: Best Friends",
     price: 9.99,
     category: "Games",
-    posterImage: "/products/My Horse 3D Best Friends/1.jpg",
+    posterImage: "/products/My Horse 3D Best Friends/CTR-N_KQ6E_MyHorse3D_BackgroundArt_01.jpg",
     detailContent: [
       "Your new best friend will depend on you, and let you ride him, but only if you care for him properly and build his trust. Enter beauty contests and jumping tournaments where you must work together to win, and so much more!",
       "Choose your dream horse from a wide range of warm, cold and full blood horses such as Arabian, Friesian or Freiberger breeds.",
