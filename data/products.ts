@@ -235,7 +235,7 @@ export const products: Product[] = [
       releaseDate: "Sep 12, 2018",
       players: "1 player",
       genre: "Adventure, Action-RPG",
-      platform: "PC, Mac"
+      platform: "PC, Mac",
       gameplay: "Story-driven, Action Combat",
       publisher: "Fantasy Entertainment Studios",
       developer: "Aurora Games",
