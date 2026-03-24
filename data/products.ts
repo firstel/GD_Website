@@ -260,7 +260,7 @@ export const products: Product[] = [
     title: "Amazing Heists Dillinger",
     price: 179.99,
     category: "Licensing",
-    posterImage: "/products/Amazing Heists Dillinger/1.jpg",
+    posterImage: "/products/Amazing Heists Dillinger/DillingerMenu.jpg",
     detailContent: [
       "Amazing Heists: Dillinger is a hidden object game with a plot based on the true story of John Herbert Dillinger, a career criminal that robbed several banks in the early 1930s. As Dillinger and his accomplices, the objective is to search and find all the items from a list at the left side of the screen within a time limit, on banks and other related locations. The time limit is optional and can be turned off at the beginning of the game. One of the list items is a riddle displayed in green about a object, for example “shelled reptile” for a turtle. The hint button highlights the position of one of the required objects. The player receives extra hints after picking up all the five multi-colored keys or the riddle object.",
       "Besides the list objects, there are eighteen bonus items scattered throughout the scenery that can be collected and stored on separate slots. They are nine coins spelling “DILLINGER”, and nine wanted posters. When collected, they give a $5000 cash bonus. Stacks of money and coins can also be clicked for some bonus cash, while safes give extra time.",
