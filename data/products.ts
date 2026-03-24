@@ -235,7 +235,7 @@ export const products: Product[] = [
       releaseDate: "Sep 12, 2018",
       players: "1 player",
       genre: "Adventure, Action-RPG",
-      platform: "PC, PlayStation 4, Xbox One",
+      platform: "PC, Mac,
       gameplay: "Story-driven, Action Combat",
       publisher: "Fantasy Entertainment Studios",
       developer: "Aurora Games",
@@ -333,7 +333,7 @@ export const products: Product[] = [
     title: "Coaster Creator 3D",
     price: 9.99,
     category: "Licensing",
-    posterImage: "/products/Coaster Creator 3D/1.jpg",
+    posterImage: "/products/Coaster Creator 3D/coaster_creator2.jpg",
     detailContent: [
       "Build your own roller coasters using fast and intuitive touch screen drawing and editing controls. Then jump right into a coaster cart seat to experience the ride in thrilling 3D.",
       "Use the Track Wizard to add Loops, Corkscrews, and Twists. Take Mii characters for a ride on your coaster. Share your coasters with friends.",
