@@ -333,7 +333,7 @@ export const products: Product[] = [
     title: "Coaster Creator 3D",
     price: 9.99,
     category: "Licensing",
-    posterImage: "/products/Coaster Creator 3D/cube_creator_3d_slider-full-background.png",
+    posterImage: "/products/Coaster Creator 3D/coaster_creator2.jpg",
     detailContent: [
       "Build your own roller coasters using fast and intuitive touch screen drawing and editing controls. Then jump right into a coaster cart seat to experience the ride in thrilling 3D.",
       "Use the Track Wizard to add Loops, Corkscrews, and Twists. Take Mii characters for a ride on your coaster. Share your coasters with friends.",
@@ -369,7 +369,7 @@ export const products: Product[] = [
     title: "Cube Creator 3D",
     price: 9.99,
     category: "Licensing",
-    posterImage: "/products/Cube Creator 3D/1.jpg",
+    posterImage: "/products/Cube Creator 3D/cube_creator_3d_slider-full-background.png",
     detailContent: [
       "Craft your own realm in stunning randomly generated worlds in Cube Creator 3D. You can also gather resources, combine elements, explore & combat strange creatures to survive in this expansive, cubic domain.",
       "Creative Mode allows you to explore worlds in true Stereoscopic 3D. The dual-screen presentation keeps your resource inventory free from cluttering the gameplay screen. Easy-to-use touchscreen controls make the open-world gameplay better than ever. Break-through dynamic lighting & effects positions Cube Creator 3D a cube above the rest.",
